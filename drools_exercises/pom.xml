@@ -10,7 +10,7 @@
   <description>Training materials for my Drools rules writing course in Udemy.</description>
 
   <properties>
-    <java.module.name>io.github.aasaru.drools-exercises</java.module.name>
+    <java.module.name>io.github.aasaru.drools-training</java.module.name>
       <drools.version>7.23.0.Final</drools.version>
   </properties>
 
