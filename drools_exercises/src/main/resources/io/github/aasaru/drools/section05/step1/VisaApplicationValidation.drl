@@ -1,0 +1,24 @@
+package io.github.aasaru.drools.section05.step1
+
+import io.github.aasaru.drools.domain.Passport;
+import io.github.aasaru.drools.domain.Validation;
+import io.github.aasaru.drools.domain.VisaApplication;
+
+import java.time.LocalDate;
+
+
+/*When passport validation fails and the passportNumber of the VisaApplication
+equals the passportNumber of this passport, print a matching message for
+this and set the Validaiton of the VisaApplication to false.*/
+
+rule "Invalidate visa application with invalid passport"
+  dialect "mvel"
+
+end
+
+// when the validation of the VisaApplication is UNKNOWN, print
+//a matching message and set the Validation to passed.
+rule "Set application without validation info as passed"
+  dialect "mvel"
+
+end
